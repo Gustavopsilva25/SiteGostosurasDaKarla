@@ -1,0 +1,188 @@
+<!-- CATÁLOGO -->
+<section class="catalogo">
+  <h1 class="catalogo-titulo">Nosso Catálogo</h1>
+
+  <div class="catalogo-container">
+    <div class="catalogo-card"><img src="Bolo.png"><p>Bolos</p></div>
+    <div class="catalogo-card"><img src="coxinha.png"><p>Salgados</p></div>
+    <div class="catalogo-card"><img src="tortasalgada.png"><p>Tortas Salgadas</p></div>
+    <div class="catalogo-card"><img src="mousse.png"><p>Mousses</p></div>
+    <div class="catalogo-card"><img src="brigadeiro.png"><p>Brigadeiros</p></div>
+    <div class="catalogo-card"><img src="donuts.png"><p>Bolos Donuts</p></div>
+    <div class="catalogo-card"><img src="torta.png"><p>Tortas Doces</p></div>
+    <div class="catalogo-card"><img src="caseiro.png"><p>Bolos Caseiros</p></div>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section class="sobre">
+  <div>
+    <span class="sobre-subtitulo">SOBRE A PROFISSIONAL</span>
+    <h1 class="sobre-nome">KARLIANA ARAÚJO</h1>
+
+    <div class="sobre-card">
+      <ul>
+        <li>39 anos.</li>
+        <li>Paixão em transformar ingredientes em felicidade.</li>
+        <li>Mais de 6 anos criando doces com amor.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sobre-imagem">
+    <img src="image (1).png">
+  </div>
+</section>
+
+<!-- MOTIVOS -->
+<section class="motivos">
+  <div class="motivos-esquerda">
+    <h1 class="motivos-titulo">
+      Motivos para escolher<br>as gostosuras da Karla
+    </h1>
+
+    <div class="motivos-img">
+      <img src="preview-image.png">
+    </div>
+  </div>
+
+  <div class="motivos-direita">
+    <div class="motivos-card">
+      <img src="Especialização.jpeg">
+      <h3>Especialização</h3>
+      <p>Mais de 6 anos criando com qualidade.</p>
+    </div>
+
+    <div class="motivos-card">
+      <img src="comprometimento.jpeg">
+      <h3>Comprometimento</h3>
+      <p>Doces feitos com carinho.</p>
+    </div>
+
+    <div class="motivos-card">
+      <img src="facil_acesso.jpeg">
+      <h3>Fácil Acesso</h3>
+      <p>Localização em SP.</p>
+    </div>
+
+    <div class="motivos-card">
+      <img src="acompanhamento.jpeg">
+      <h3>Acompanhamento</h3>
+      <p>Para todos os momentos especiais.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <h1>DÚVIDAS FREQUENTES</h1>
+
+  <div class="faq-item">Prazo mínimo para pedidos <span>></span></div>
+  <div class="faq-item">Faz personalizados? <span>></span></div>
+  <div class="faq-item">Tempo de entrega? <span>></span></div>
+  <div class="faq-item">Aceita PIX? <span>></span></div>
+
+  <div class="faq-resposta">
+    Sim, oferecemos delivery e retirada.
+  </div>
+</section>
+
+<!-- AVALIAÇÕES -->
+<section class="avaliacoes">
+  <h1>O QUE NOSSOS CLIENTES DIZEM</h1>
+  <img src="coracao.png.png">
+
+  <p class="avaliacoes-nota">⭐ 4.9 de 5</p>
+  <p class="avaliacoes-total">💬 +500 Avaliações</p>
+  <p class="avaliacoes-satisfacao">😊 98% satisfeitos</p>
+
+  <div class="avaliacoes-cards">
+    <div class="avaliacao-card">
+      <img src="Ellipse 1.png">
+      <h3>Letycia Alves</h3>
+      <p>⭐⭐⭐⭐⭐</p>
+      <p>“Eu pedi os doces para o aniversário da minha filha e simplesmente todo mundo elogiou! Vieram super bem embalados e fresquinhos com um sabor incrível.”</p>
+    </div>
+
+    <div class="avaliacao-card destaque">
+      <img src="Ellipse 3.png">
+      <h3>Felipe Silva</h3>
+      <p>⭐⭐⭐⭐⭐</p>
+      <p>“Já provei varios doces de outros lugares, mas esse foi disparado o melhor! O sabor é muito equilibrado, não é enjoativo e dá vontade de comer vários.”</p>
+    </div>
+
+    <div class="avaliacao-card">
+      <img src="Ellipse 2.png">
+      <h3>Ana Silva</h3>
+      <p>⭐⭐⭐⭐⭐</p>
+      <p>“Além dos doces serem maravilhosos, o atendimento foi impecável. Tiraram todas as minha duvídas e a entrega chegou antes do esperado.”</p>
+    </div>
+  </div>
+ 
+<footer class="dk-footer">
+
+  <div class="dk-footer-main">
+
+    <!-- LOGO -->
+    <div class="dk-footer-brand">
+      <img src="logo.png" alt="Logo Doceria da Karla" class="dk-footer-logo">
+      <p class="dk-footer-slogan">A melhor doceria de São Paulo!</p>
+    </div>
+
+    <!-- MAPA -->
+    <div class="dk-footer-block">
+      <h3>Mapa do Site</h3>
+      <ul>
+        <li>Home</li>
+        <li>Cardápio</li>
+        <li>Sobre Mim</li>
+        <li>Dúvidas</li>
+      </ul>
+    </div>
+
+    <!-- ENDEREÇO -->
+    <div class="dk-footer-block">
+      <h3>Endereço</h3>
+
+      <div class="dk-footer-item">
+        <img src="icone_endereco.png" class="dk-footer-icon">
+        <p>Rua Vitório Urias Alves 66<br>Socorro - São Paulo - SP</p>
+      </div>
+
+      <div class="dk-footer-item">
+        <img src="icone_whats.png" class="dk-footer-icon">
+        <p>11 94864-5432</p>
+      </div>
+
+      <div class="dk-footer-item">
+        <img src="icone_insta.png" class="dk-footer-icon">
+        <p>gostosuras_da_karla</p>
+      </div>
+    </div>
+
+    <!-- FUNCIONAMENTO -->
+    <div class="dk-footer-block">
+      <h3>Funcionamento</h3>
+      <p>Seg a Sex: 09h às 18h</p>
+      <p>Sábado: 09h às 14h</p>
+      <p>Domingo: Sob encomenda</p>
+    </div>
+
+    <!-- PAGAMENTOS -->
+    <div class="dk-footer-block">
+      <h3>Pagamentos</h3>
+      <p>Pix | Cartão | Dinheiro</p>
+
+      <button class="dk-footer-btn">
+        Fazer pedido pelo WhatsApp
+      </button>
+    </div>
+
+  </div>
+
+  <div class="dk-footer-copy">
+    © 2026 Doceria da Karla
+  </div>
+
+</footer>
+</section>
