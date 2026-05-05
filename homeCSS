@@ -1,0 +1,197 @@
+:host {
+  display: block;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* CATÁLOGO */
+.catalogo {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.catalogo-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.catalogo-card {
+  background: #d9a3b6;
+  padding: 15px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.catalogo-card:hover {
+  transform: scale(1.05);
+}
+
+.catalogo-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
+/* SOBRE */
+.sobre {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.sobre-card {
+  background: #f1bdd4;
+  padding: 30px;
+  border-radius: 20px;
+}
+.sobre-imagem img {
+  max-width: 400px; 
+  height: auto;
+  border-radius: 20px;
+}
+
+/* MOTIVOS */
+.motivos {
+  display: flex;
+  padding: 60px;
+  gap: 40px;
+}
+
+.motivos-direita {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.motivos-card {
+  background: #EDBCD7;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.motivos-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  
+  
+  mix-blend-mode: multiply;
+}
+  
+
+/* FAQ */
+.faq {
+  text-align: center;
+  padding: 60px;
+}
+
+.faq-item {
+  background: #f1c1d7;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 50px;
+  max-width: 500px;
+}
+
+/* AVALIAÇÕES */
+.avaliacoes {
+  text-align: center;
+  padding: 60px;
+}
+
+.avaliacoes-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.avaliacao-card {
+  background-color: #A02C6D;
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* FOOTER PRINCIPAL */
+.dk-footer {
+  background: #8e2c63;
+  color: white;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dk-footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.dk-footer-brand {
+  max-width: 220px;
+}
+
+.dk-footer-logo {
+  width: 140px;
+  height: auto;
+}
+
+.dk-footer-slogan {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.dk-footer-block h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.dk-footer-block ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dk-footer-block ul li {
+  margin-bottom: 6px;
+}
+
+.dk-footer-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.dk-footer-icon {
+  width: 26px;   /* 🔥 AQUI aumenta os ícones */
+  height: 26px;
+}
+
+.dk-footer-btn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background: #25d366;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.dk-footer-btn:hover {
+  background: #1ebe5d;
+}
+
+.dk-footer-copy {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  opacity: 0.8;
+}
