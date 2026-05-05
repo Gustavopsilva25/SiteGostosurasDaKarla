@@ -1,0 +1,24 @@
+<div class="containerLogin">
+
+  <img src="logo.png" alt="Logo" class="logoLogin">
+
+  <div class="cardLogin">
+    
+    <h2>Login</h2>
+
+    <form (ngSubmit)="onLogin()" #loginForm="ngForm">
+
+      <input type="email" name="email" placeholder="E-mail" ngModel required>
+
+      <input type="password" name="senha" placeholder="Senha" ngModel required>
+
+      <button type="submit">Entrar</button>
+
+    </form>
+
+    <p class="link" (click)="onRegister()">
+      Criar conta
+    </p>
+
+  </div>
+</div>
